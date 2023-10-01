@@ -1,0 +1,42 @@
+* {
+    border: 1rem; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body {
+    background-color: #222;
+    color: whitesmoke;
+}
+.container {
+    display: grid;
+    margin: 2rem auto;
+    gap: 1rem;
+    grid-template-areas:
+    "one one two two"
+    "three four two two"
+    "five five six six"
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pic1 {
+    grid-area: one;
+}
+.pic2 {
+    grid-area: two;
+}
+.pic3 {
+    grid-area: three;
+}
+.pic4 {
+    grid-area: four;
+}
+.pic5 {
+    grid-area: five;
+}
+.pic6 {
+    grid-area: six;
+}
